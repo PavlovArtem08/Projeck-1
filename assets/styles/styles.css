@@ -39,27 +39,23 @@ body {
 }
 
 .bottom {
-    /* display: inline-block;
+    display: inline-block;
     text-align: center;
-    width: 100%;
     font-size: 18px;
-    color: white;
-    background: #926239; */
-    max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
 }
 
 .top-block {
     display: inline-block;
     max-width: 100%;
-    background-color: #926239;
+    padding: 10px;
+    margin: 0;
+    vertical-align: top;
     color: white;
+    background: #926239;
 }
 
 .content {
-
-    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
 
@@ -69,6 +65,10 @@ body {
     display: inline-block;
     max-width: 33%;
     width: 100%;
+    padding: 10px;
+    height: 300px;
+    vertical-align: top;
+    box-sizing: border-box;
 
 }
 
