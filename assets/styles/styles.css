@@ -13,6 +13,28 @@ body {
     background-attachment: fixed;
 }
 
+.styled-button {
+    background-color: #92633924;
+    color: #926239;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-button:hover {
+    background-color: #92633957;
+    transform: translateY(-3px);
+}
+
+.styled-button:active {
+    background-color: #926339af;
+    transform: translateY(2px);
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -56,9 +78,9 @@ body {
 }
 
 .content {
+    display: inline-block;
+    text-align: center;
     width: 100%;
-    margin: 0 auto;
-
 }
 
 .content p {
@@ -67,6 +89,7 @@ body {
     width: 100%;
     padding: 10px;
     height: 300px;
+    margin: 0;
     vertical-align: top;
     box-sizing: border-box;
 
