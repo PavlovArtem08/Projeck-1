@@ -99,3 +99,9 @@ body {
     background-color: #926239;
     color: white;
 }
+
+@media (max-width: 1380px) {
+    .content p {
+        max-width: 100%;
+    }
+}
