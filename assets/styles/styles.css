@@ -103,5 +103,17 @@ body {
 @media (max-width: 1380px) {
     .content p {
         max-width: 100%;
+        /* color: aqua;
+        padding: 2px; */
     }
+
+    /* p {
+        color: aqua;
+        padding: 2px;
+    }
+
+    .top-block {
+        color: aqua;
+        padding: 2px;
+    } */
 }
